@@ -10,7 +10,8 @@ namespace Open_Lab_10._00
     {
         static void Main(string[] args)
         {
-            Book LOTR = new Book("LOTR", 156);
+            Book LOTR = new Book();
+            Lotr.title = "Lord of the rings"
             Console.WriteLine(LOTR.title);
 
         }
