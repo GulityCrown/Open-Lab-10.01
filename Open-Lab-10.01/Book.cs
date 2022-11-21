@@ -10,11 +10,6 @@ namespace Open_Lab_10._00
     {
         public string title;
         private int pages;
-        public Book(string tit, int pag)
-        {
-            this.title = tit;
-            this.pages = pag;
-
-        }
+        public Book(){}
     }
 }
