@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace Open_Lab_10._00
         static void Main(string[] args)
         {
             Book LOTR = new Book();
-            Lotr.title = "Lord of the rings"
+            LOTR.title = "Lord of the Rings";
             Console.WriteLine(LOTR.title);
 
         }
